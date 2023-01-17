@@ -8,6 +8,8 @@ namespace APBD_02.Models
 {
     public class Uczelnia
     {
-
+        public string createdAt { get; set; }
+        public string author { get; set; }
+        public HashSet<Student> students { get; set; }
     }
 }

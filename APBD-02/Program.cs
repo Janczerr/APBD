@@ -54,12 +54,15 @@ namespace APBD_02
             StreamWriter streamWriter = new StreamWriter(destination.OpenWrite());
             var options = new JsonSerializerOptions { WriteIndented = true };
 
-            foreach (Student student in set)
+            Uczelnia uczelnia = new Uczelnia
             {
-                var jsonString = JsonSerializer.Serialize(student, options);
-                streamWriter.WriteLine(jsonString);
+                createdAt = DateTime.Now.ToString(),
+                author = "Jan",
+                students = set
+            };
 
-            }
+            var jsonString = JsonSerializer.Serialize(uczelnia, options);
+            streamWriter.WriteLine(jsonString);
 
             streamWriter.Close();
         }
