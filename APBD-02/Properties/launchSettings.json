@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "APBD-02": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\sonvi\\Documents\\APBD\\APBD-02\\Data\\dane.csv\" \"C:\\Users\\sonvi\\Documents\\APBD\\APBD-02\\Data\\konwersja.json\"\r\n"
+    }
+  }
+}

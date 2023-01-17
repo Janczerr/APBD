@@ -1,24 +1,67 @@
-﻿using System.Text.RegularExpressions;
+﻿using APBD_02.Models;
+using System.Diagnostics.Metrics;
+using System.Text.Json;
 
-public class Program
+namespace APBD_02
 {
-    public static async Task Main(String[] args)
+    public class Program
     {
-        Regex mail_rx = new Regex("(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])");
-
-        Console.WriteLine("Podaj adres URL:");
-        string adresUrl = Console.ReadLine();
-
-        var httpClient = new HttpClient();
-        HttpResponseMessage response = await httpClient.GetAsync(adresUrl);
-
-        if (response.IsSuccessStatusCode)
+        public static void Main(String[] args)
         {
-            string result = await response.Content.ReadAsStringAsync();
-            foreach (Match match in mail_rx.Matches(result))
+            // 1. Argumenty
+            
+
+            // 2. Kolekcja
+            HashSet<Student> set = new HashSet<Student>();
+
+            // 3. Klasa modelowa - Student
+
+            
+            // 4. Odczytt bazy z pliku
+            FileInfo source = new FileInfo(args[0]);
+            FileInfo destination = new FileInfo(args[1]);
+
+            StreamReader streamReader = new StreamReader(source.OpenRead());
+
+            string line = null;
+            int counterPowtorki = 0;
+
+            // Odczyt pliku
+            while((line = streamReader.ReadLine()) != null)
             {
-                Console.WriteLine("Matched e-mail: " + match.Value);
+                //Podzielenie pliku
+                string[] splits = line.Split(',');
+
+                //Utworzenie obiektu i przypisanie zmiennych
+                Student student = new Student
+                {
+                   fname= splits[0],
+                   lname= splits[1],
+                   studiesName= splits[2],
+                   studiesMode= splits[3],
+                   indexNumber= "s" + splits[4],
+                   birthdate= splits[5],
+                   email= splits[6],
+                   mothersName= splits[7],
+                   fathersName= splits[8]
+                };
+
+                //Zapis pliku do hashsetu
+                set.Add(student);
+                counterPowtorki++;
             }
+
+            StreamWriter streamWriter = new StreamWriter(destination.OpenWrite());
+            var options = new JsonSerializerOptions { WriteIndented = true };
+
+            foreach (Student student in set)
+            {
+                var jsonString = JsonSerializer.Serialize(student, options);
+                streamWriter.WriteLine(jsonString);
+
+            }
+
+            streamWriter.Close();
         }
     }
 }
