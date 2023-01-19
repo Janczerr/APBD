@@ -1,5 +1,7 @@
 ﻿using APBD_02.Models;
+using APBD_02.Service;
 using System.Diagnostics.Metrics;
+using System.Reflection;
 using System.Text.Json;
 
 namespace APBD_02
@@ -8,63 +10,15 @@ namespace APBD_02
     {
         public static void Main(String[] args)
         {
-            // 1. Argumenty
+            FileInfo source = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/dane.csv");
+            FileInfo destination = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/konwersja.json");
+            FileInfo logs = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/logs.txt");
             
+            FileService fileService = new FileService();
 
-            // 2. Kolekcja
-            HashSet<Student> set = new HashSet<Student>();
+            HashSet<Student> students = fileService.getStudentFromFile(source, logs);
+            fileService.saveUczenlniaToFile(students, destination, "Śmietnik");
 
-            // 3. Klasa modelowa - Student
-
-            
-            // 4. Odczytt bazy z pliku
-            FileInfo source = new FileInfo(args[0]);
-            FileInfo destination = new FileInfo(args[1]);
-
-            StreamReader streamReader = new StreamReader(source.OpenRead());
-
-            string line = null;
-            int counterPowtorki = 0;
-
-            // Odczyt pliku
-            while((line = streamReader.ReadLine()) != null)
-            {
-                //Podzielenie pliku
-                string[] splits = line.Split(',');
-
-                //Utworzenie obiektu i przypisanie zmiennych
-                Student student = new Student
-                {
-                   fname= splits[0],
-                   lname= splits[1],
-                   studiesName= splits[2],
-                   studiesMode= splits[3],
-                   indexNumber= "s" + splits[4],
-                   birthdate= splits[5],
-                   email= splits[6],
-                   mothersName= splits[7],
-                   fathersName= splits[8]
-                };
-
-                //Zapis pliku do hashsetu
-                set.Add(student);
-                counterPowtorki++;
-            }
-
-            StreamWriter streamWriter = new StreamWriter(destination.OpenWrite());
-            var options = new JsonSerializerOptions { WriteIndented = true };
-
-            Uczelnia uczelnia = new Uczelnia
-            {
-                createdAt = DateTime.Now.ToString(),
-                author = "Jan",
-                students = set
-            };
-
-            var jsonString = JsonSerializer.Serialize(uczelnia, options);
-            streamWriter.WriteLine(jsonString);
-
-            streamWriter.Close();
         }
     }
 }
