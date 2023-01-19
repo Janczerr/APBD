@@ -48,8 +48,7 @@ public class FileService
         StreamWriter streamWriter = new StreamWriter(logsFile.OpenWrite());
         foreach (var student in logs)
         {        
-            var jsonString = JsonSerializer.Serialize(student);
-            streamWriter.WriteLine(jsonString + " juz istnieje w bazie");
+            streamWriter.WriteLine("Student o indeksie " + student.indexNumber + " juz istnieje w bazie");
         }
         streamWriter.Close();
     }

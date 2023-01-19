@@ -1,18 +1,91 @@
-{"fname":"Pawe\u0142","lname":"Nowak1","studiesName":"Informatyka magisterskie 4 sem","studiesMode":"Dzienne","indexNumber":"s459","birthdate":"2000-02-12","email":"1@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Justyna","lname":"Kowalski30","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4749","birthdate":"2000-02-12","email":"30@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Nowak31","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4432","birthdate":"2000-02-12","email":"31@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Joanna","lname":"Brz\u0119czyszczykiewicz37","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4799","birthdate":"2000-02-12","email":"37@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Irena","lname":"Maciejewski38","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne","studiesMode":"Zaoczne","indexNumber":"s4626","birthdate":"2000-02-12","email":"38@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Kacper","lname":"Kowalski40","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4396","birthdate":"2000-02-12","email":"40@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Pawe\u0142","lname":"Nowak41","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne","studiesMode":"Zaoczne","indexNumber":"s4902","birthdate":"2000-02-12","email":"41@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Aleksandra","lname":"Brz\u0119czyszczykiewicz42","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne","studiesMode":"Zaoczne","indexNumber":"s4434","birthdate":"2000-02-12","email":"42@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jan","lname":"Nowak46","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne 6 sem.","studiesMode":"Zaoczne","indexNumber":"s4842","birthdate":"2000-02-12","email":"46@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jakub","lname":"Jankowski49","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne","studiesMode":"Zaoczne","indexNumber":"s4789","birthdate":"2000-02-12","email":"49@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Sabina","lname":"Brz\u0119czyszczykiewicz52","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4513","birthdate":"2000-02-12","email":"52@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jan","lname":"Nowak56","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4649","birthdate":"2000-02-12","email":"56@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jakub","lname":"Brz\u0119czyszczykiewicz57","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4755","birthdate":"2000-02-12","email":"57@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Karolina","lname":"Jankowski64","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4423","birthdate":"2000-02-12","email":"64@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Magdalena","lname":"Nowak66","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4629","birthdate":"2000-02-12","email":"66@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
+Student o indeksie s459 juz istnieje w bazie
+Student o indeksie s4749 juz istnieje w bazie
+Student o indeksie s4432 juz istnieje w bazie
+Student o indeksie s4799 juz istnieje w bazie
+Student o indeksie s4626 juz istnieje w bazie
+Student o indeksie s4396 juz istnieje w bazie
+Student o indeksie s4902 juz istnieje w bazie
+Student o indeksie s4434 juz istnieje w bazie
+Student o indeksie s4842 juz istnieje w bazie
+Student o indeksie s4789 juz istnieje w bazie
+Student o indeksie s4513 juz istnieje w bazie
+Student o indeksie s4649 juz istnieje w bazie
+Student o indeksie s4755 juz istnieje w bazie
+Student o indeksie s4423 juz istnieje w bazie
+Student o indeksie s4629 juz istnieje w bazie
+Student o indeksie s4478 juz istnieje w bazie
+Student o indeksie s4741 juz istnieje w bazie
+Student o indeksie s4800 juz istnieje w bazie
+Student o indeksie s4429 juz istnieje w bazie
+Student o indeksie s4849 juz istnieje w bazie
+Student o indeksie s3374 juz istnieje w bazie
+Student o indeksie s4756 juz istnieje w bazie
+Student o indeksie s4412 juz istnieje w bazie
+Student o indeksie s4836 juz istnieje w bazie
+Student o indeksie s4454 juz istnieje w bazie
+Student o indeksie s4443 juz istnieje w bazie
+Student o indeksie s4579 juz istnieje w bazie
+Student o indeksie s4413 juz istnieje w bazie
+Student o indeksie s4554 juz istnieje w bazie
+Student o indeksie s4711 juz istnieje w bazie
+Student o indeksie s4549 juz istnieje w bazie
+Student o indeksie s4618 juz istnieje w bazie
+Student o indeksie s4530 juz istnieje w bazie
+Student o indeksie s4607 juz istnieje w bazie
+Student o indeksie s4459 juz istnieje w bazie
+Student o indeksie s4589 juz istnieje w bazie
+Student o indeksie s4556 juz istnieje w bazie
+Student o indeksie s4504 juz istnieje w bazie
+Student o indeksie s4505 juz istnieje w bazie
+Student o indeksie s4105 juz istnieje w bazie
+Student o indeksie s4498 juz istnieje w bazie
+Student o indeksie s4471 juz istnieje w bazie
+Student o indeksie s4724 juz istnieje w bazie
+Student o indeksie s4769 juz istnieje w bazie
+Student o indeksie s4733 juz istnieje w bazie
+Student o indeksie s4584 juz istnieje w bazie
+Student o indeksie s4514 juz istnieje w bazie
+Student o indeksie s4935 juz istnieje w bazie
+Student o indeksie s4456 juz istnieje w bazie
+Student o indeksie s4107 juz istnieje w bazie
+Student o indeksie s4817 juz istnieje w bazie
+Student o indeksie s4387 juz istnieje w bazie
+Student o indeksie s4509 juz istnieje w bazie
+Student o indeksie s4481 juz istnieje w bazie
+Student o indeksie s4512 juz istnieje w bazie
+Student o indeksie s4782 juz istnieje w bazie
+Student o indeksie s4627 juz istnieje w bazie
+Student o indeksie s4830 juz istnieje w bazie
+Student o indeksie s4447 juz istnieje w bazie
+Student o indeksie s4580 juz istnieje w bazie
+Student o indeksie s4284 juz istnieje w bazie
+Student o indeksie s4440 juz istnieje w bazie
+Student o indeksie s4796 juz istnieje w bazie
+Student o indeksie s4942 juz istnieje w bazie
+Student o indeksie s4614 juz istnieje w bazie
+Student o indeksie s4433 juz istnieje w bazie
+Student o indeksie s4419 juz istnieje w bazie
+Student o indeksie s4058 juz istnieje w bazie
+Student o indeksie s4524 juz istnieje w bazie
+Student o indeksie s4532 juz istnieje w bazie
+Student o indeksie s4480 juz istnieje w bazie
+Student o indeksie s4523 juz istnieje w bazie
+Student o indeksie s4766 juz istnieje w bazie
+Student o indeksie s4422 juz istnieje w bazie
+Student o indeksie s4660 juz istnieje w bazie
+Student o indeksie s3081 juz istnieje w bazie
+Student o indeksie s4385 juz istnieje w bazie
+Student o indeksie s4522 juz istnieje w bazie
+Student o indeksie s4518 juz istnieje w bazie
+Student o indeksie s4384 juz istnieje w bazie
+Student o indeksie s4496 juz istnieje w bazie
+Student o indeksie s4750 juz istnieje w bazie
+Student o indeksie s4483 juz istnieje w bazie
+Student o indeksie s4751 juz istnieje w bazie
+Student o indeksie s4528 juz istnieje w bazie
+Student o indeksie s4814 juz istnieje w bazie
+Student o indeksie s4616 juz istnieje w bazie
+:"2000-02-12","email":"66@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
 {"fname":"Pawe\u0142","lname":"Jankowski69","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4478","birthdate":"2000-02-12","email":"69@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
 {"fname":"Kamil","lname":"Nowak71","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4741","birthdate":"2000-02-12","email":"71@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
 {"fname":"Sandra","lname":"Brz\u0119czyszczykiewicz77","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4800","birthdate":"2000-02-12","email":"77@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
