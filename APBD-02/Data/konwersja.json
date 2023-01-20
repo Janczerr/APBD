@@ -1,16 +1,21 @@
 {
-  "createdAt": "19.01.2023 20:03:55",
+  "createdAt": "20.01.2023 08:55:32",
   "author": "\u015Amietnik",
   "students": [
     {
-      "fname": "Pawe\u0142",
-      "lname": "Nowak1",
-      "studiesName": "Informatyka dzienne",
-      "studiesMode": "Dzienne",
-      "indexNumber": "s459",
-      "birthdate": "2000-02-12",
-      "email": "1@pjwstk.edu.pl",
-      "mothersName": "Alina",
+      "fname": null,
+      "lname": null,
+      "studiesName": null,
+      "studiesMode": null,
+      "indexNumber": null,
+      "birthdate": null,
+      "email": null,
+      "mothersName": null,
+      "fathersName": null
+    }
+  ]
+}
+othersName": "Alina",
       "fathersName": "Adam"
     },
     {

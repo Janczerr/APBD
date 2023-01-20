@@ -14,6 +14,10 @@ namespace APBD_02
             FileInfo destination = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/konwersja.json");
             FileInfo logs = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/logs.txt");
             
+            
+            
+            
+            
             FileService fileService = new FileService();
 
             HashSet<Student> students = fileService.getStudentFromFile(source, logs);
