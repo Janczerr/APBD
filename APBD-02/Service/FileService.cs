@@ -39,7 +39,7 @@ public class FileService
             }
         }
 
-        saveLogs(logs, logsFile);
+        //saveLogs(logs, logsFile);
         return students;
     }
 
