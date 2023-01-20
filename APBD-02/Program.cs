@@ -10,19 +10,14 @@ namespace APBD_02
     {
         public static void Main(String[] args)
         {
-            FileInfo source = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/dane.csv");
-            FileInfo destination = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/konwersja.json");
-            FileInfo logs = new FileInfo("/Users/lukaszjanowski/RiderProjects/APBD/APBD-02/Data/logs.txt");
-            
-            
-            
-            
-            
-            FileService fileService = new FileService();
+            string source = args[0];
+            string destination = args[1];
+            string logs = "Data/logs.txt";
 
-            HashSet<Student> students = fileService.getStudentFromFile(source, logs);
-            fileService.saveUczenlniaToFile(students, destination, "Śmietnik");
+            FileService fileService = new FileService(source, destination, logs);
 
+            HashSet<Student> students = fileService.getDistinctStudents();
+            fileService.saveUczenlniaToFile(students);
         }
     }
 }

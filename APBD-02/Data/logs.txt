@@ -1,161 +1,207 @@
-Student o indeksie  juz istnieje w bazie
-zie
-Student o indeksie s4749 juz istnieje w bazie
-Student o indeksie s4432 juz istnieje w bazie
-Student o indeksie s4799 juz istnieje w bazie
-Student o indeksie s4626 juz istnieje w bazie
-Student o indeksie s4396 juz istnieje w bazie
-Student o indeksie s4902 juz istnieje w bazie
-Student o indeksie s4434 juz istnieje w bazie
-Student o indeksie s4842 juz istnieje w bazie
-Student o indeksie s4789 juz istnieje w bazie
-Student o indeksie s4513 juz istnieje w bazie
-Student o indeksie s4649 juz istnieje w bazie
-Student o indeksie s4755 juz istnieje w bazie
-Student o indeksie s4423 juz istnieje w bazie
-Student o indeksie s4629 juz istnieje w bazie
-Student o indeksie s4478 juz istnieje w bazie
-Student o indeksie s4741 juz istnieje w bazie
-Student o indeksie s4800 juz istnieje w bazie
-Student o indeksie s4429 juz istnieje w bazie
-Student o indeksie s4849 juz istnieje w bazie
-Student o indeksie s3374 juz istnieje w bazie
-Student o indeksie s4756 juz istnieje w bazie
-Student o indeksie s4412 juz istnieje w bazie
-Student o indeksie s4836 juz istnieje w bazie
-Student o indeksie s4454 juz istnieje w bazie
-Student o indeksie s4443 juz istnieje w bazie
-Student o indeksie s4579 juz istnieje w bazie
-Student o indeksie s4413 juz istnieje w bazie
-Student o indeksie s4554 juz istnieje w bazie
-Student o indeksie s4711 juz istnieje w bazie
-Student o indeksie s4549 juz istnieje w bazie
-Student o indeksie s4618 juz istnieje w bazie
-Student o indeksie s4530 juz istnieje w bazie
-Student o indeksie s4607 juz istnieje w bazie
-Student o indeksie s4459 juz istnieje w bazie
-Student o indeksie s4589 juz istnieje w bazie
-Student o indeksie s4556 juz istnieje w bazie
-Student o indeksie s4504 juz istnieje w bazie
-Student o indeksie s4505 juz istnieje w bazie
-Student o indeksie s4105 juz istnieje w bazie
-Student o indeksie s4498 juz istnieje w bazie
-Student o indeksie s4471 juz istnieje w bazie
-Student o indeksie s4724 juz istnieje w bazie
-Student o indeksie s4769 juz istnieje w bazie
-Student o indeksie s4733 juz istnieje w bazie
-Student o indeksie s4584 juz istnieje w bazie
-Student o indeksie s4514 juz istnieje w bazie
-Student o indeksie s4935 juz istnieje w bazie
-Student o indeksie s4456 juz istnieje w bazie
-Student o indeksie s4107 juz istnieje w bazie
-Student o indeksie s4817 juz istnieje w bazie
-Student o indeksie s4387 juz istnieje w bazie
-Student o indeksie s4509 juz istnieje w bazie
-Student o indeksie s4481 juz istnieje w bazie
-Student o indeksie s4512 juz istnieje w bazie
-Student o indeksie s4782 juz istnieje w bazie
-Student o indeksie s4627 juz istnieje w bazie
-Student o indeksie s4830 juz istnieje w bazie
-Student o indeksie s4447 juz istnieje w bazie
-Student o indeksie s4580 juz istnieje w bazie
-Student o indeksie s4284 juz istnieje w bazie
-Student o indeksie s4440 juz istnieje w bazie
-Student o indeksie s4796 juz istnieje w bazie
-Student o indeksie s4942 juz istnieje w bazie
-Student o indeksie s4614 juz istnieje w bazie
-Student o indeksie s4433 juz istnieje w bazie
-Student o indeksie s4419 juz istnieje w bazie
-Student o indeksie s4058 juz istnieje w bazie
-Student o indeksie s4524 juz istnieje w bazie
-Student o indeksie s4532 juz istnieje w bazie
-Student o indeksie s4480 juz istnieje w bazie
-Student o indeksie s4523 juz istnieje w bazie
-Student o indeksie s4766 juz istnieje w bazie
-Student o indeksie s4422 juz istnieje w bazie
-Student o indeksie s4660 juz istnieje w bazie
-Student o indeksie s3081 juz istnieje w bazie
-Student o indeksie s4385 juz istnieje w bazie
-Student o indeksie s4522 juz istnieje w bazie
-Student o indeksie s4518 juz istnieje w bazie
-Student o indeksie s4384 juz istnieje w bazie
-Student o indeksie s4496 juz istnieje w bazie
-Student o indeksie s4750 juz istnieje w bazie
-Student o indeksie s4483 juz istnieje w bazie
-Student o indeksie s4751 juz istnieje w bazie
-Student o indeksie s4528 juz istnieje w bazie
-Student o indeksie s4814 juz istnieje w bazie
-Student o indeksie s4616 juz istnieje w bazie
-:"2000-02-12","email":"66@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Pawe\u0142","lname":"Jankowski69","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4478","birthdate":"2000-02-12","email":"69@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Kamil","lname":"Nowak71","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4741","birthdate":"2000-02-12","email":"71@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Sandra","lname":"Brz\u0119czyszczykiewicz77","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4800","birthdate":"2000-02-12","email":"77@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Ma\u0142gorzata","lname":"Maciejewski78","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4429","birthdate":"2000-02-12","email":"78@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Klaudia","lname":"Jankowski84","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4849","birthdate":"2000-02-12","email":"84@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Tomasz","lname":"Kowalski95","studiesName":"Sztuka Nowych Medi\u00F3w dzienne","studiesMode":"Dzienne","indexNumber":"s3374","birthdate":"2000-02-12","email":"95@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jolanta","lname":"Nowak96","studiesName":"Sztuka Nowych Medi\u00F3w uzupe\u0142niaj\u0105ce magisterskie","studiesMode":"Dzienne","indexNumber":"s4756","birthdate":"2000-02-12","email":"96@pjwstk.edu.pl","mothersName":"","fathersName":""} juz istnieje w bazie
-{"fname":"Pawe\u0142","lname":"Brz\u0119czyszczykiewicz252","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4412","birthdate":"2000-02-12","email":"252@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Kamil","lname":"Jankowski254","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4836","birthdate":"2000-02-12","email":"254@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Brz\u0119czyszczykiewicz257","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4454","birthdate":"2000-02-12","email":"257@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Patryk","lname":"Maciejewski258","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4443","birthdate":"2000-02-12","email":"258@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Kowalski260","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4579","birthdate":"2000-02-12","email":"260@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Zuzanna","lname":"Jankowski264","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4413","birthdate":"2000-02-12","email":"264@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Wojciech","lname":"Nowak266","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4554","birthdate":"2000-02-12","email":"266@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jakub","lname":"Kowalski270","studiesName":"Informatyka internetowe","studiesMode":"Internetowe","indexNumber":"s4711","birthdate":"2000-02-12","email":"270@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Aleksandra","lname":"Brz\u0119czyszczykiewicz272","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4549","birthdate":"2000-02-12","email":"272@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Piotr","lname":"Maciejewski273","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4618","birthdate":"2000-02-12","email":"273@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Adrian","lname":"Jankowski274","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4530","birthdate":"2000-02-12","email":"274@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Andrzej","lname":"Kowalski275","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4607","birthdate":"2000-02-12","email":"275@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Wojciech","lname":"Nowak276","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4459","birthdate":"2000-02-12","email":"276@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Agata","lname":"Nowak281","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4589","birthdate":"2000-02-12","email":"281@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Piotr","lname":"Maciejewski283","studiesName":"Informatyka magisterskie uzupe\u0142niaj\u0105ce zaoczne","studiesMode":"Zaoczne","indexNumber":"s4556","birthdate":"2000-02-12","email":"283@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Grzegorz","lname":"Jankowski284","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4504","birthdate":"2000-02-12","email":"284@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Sebastian","lname":"Kowalski285","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4505","birthdate":"2000-02-12","email":"285@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Filip","lname":"Nowak286","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4105","birthdate":"2000-02-12","email":"286@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Artur","lname":"Maciejewski288","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4498","birthdate":"2000-02-12","email":"288@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Piotr","lname":"Jankowski289","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4471","birthdate":"2000-02-12","email":"289@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Tomasz","lname":"Jankowski294","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4724","birthdate":"2000-02-12","email":"294@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Nowak296","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4769","birthdate":"2000-02-12","email":"296@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jakub","lname":"Maciejewski298","studiesName":"Informatyka internetowe","studiesMode":"Internetowe","indexNumber":"s4733","birthdate":"2000-02-12","email":"298@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Kasper","lname":"Jankowski299","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4584","birthdate":"2000-02-12","email":"299@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Krzysztof","lname":"Kowalski300","studiesName":"Informatyka magisterskie uzupe\u0142niaj\u0105ce zaoczne","studiesMode":"Zaoczne","indexNumber":"s4514","birthdate":"2000-02-12","email":"300@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Katarzyna","lname":"Maciejewski303","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4935","birthdate":"2000-02-12","email":"303@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Piotr","lname":"Kowalski305","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4456","birthdate":"2000-02-12","email":"305@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jan","lname":"Nowak306","studiesName":"Informatyka internetowe","studiesMode":"Internetowe","indexNumber":"s4107","birthdate":"2000-02-12","email":"306@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Kacper","lname":"Maciejewski308","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4817","birthdate":"2000-02-12","email":"308@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Lech","lname":"Kowalski310","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4387","birthdate":"2000-02-12","email":"310@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"B\u0142a\u017Cej","lname":"Nowak311","studiesName":"Informatyka magisterskie uzupe\u0142niaj\u0105ce zaoczne","studiesMode":"Zaoczne","indexNumber":"s4509","birthdate":"2000-02-12","email":"311@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Pawe\u0142","lname":"Maciejewski313","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4481","birthdate":"2000-02-12","email":"313@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Wojciech","lname":"Jankowski314","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4512","birthdate":"2000-02-12","email":"314@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Maciej","lname":"Kowalski315","studiesName":"Informatyka Spo\u0142eczna","studiesMode":"Dzienne","indexNumber":"s4782","birthdate":"2000-02-12","email":"315@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Kowalski320","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4627","birthdate":"2000-02-12","email":"320@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Krzysztof","lname":"Nowak321","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4830","birthdate":"2000-02-12","email":"321@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Mariusz","lname":"Maciejewski323","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4447","birthdate":"2000-02-12","email":"323@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Bartosz","lname":"Jankowski324","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4580","birthdate":"2000-02-12","email":"324@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Piotr","lname":"Kowalski325","studiesName":"Sztuka Nowych Medi\u00F3w zaoczne","studiesMode":"Zaoczne","indexNumber":"s4284","birthdate":"2000-02-12","email":"325@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Nowak326","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4440","birthdate":"2000-02-12","email":"326@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Pawe\u0142","lname":"Jankowski329","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4796","birthdate":"2000-02-12","email":"329@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Nakul","lname":"Brz\u0119czyszczykiewicz332","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4942","birthdate":"2000-02-12","email":"332@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Tomoto","lname":"Maciejewski333","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4614","birthdate":"2000-02-12","email":"333@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Adam","lname":"Kowalski335","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4433","birthdate":"2000-02-12","email":"335@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Maciejewski338","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4419","birthdate":"2000-02-12","email":"338@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Adrian","lname":"Nowak341","studiesName":"Informatyka wieczorowe","studiesMode":"Wieczorowe","indexNumber":"s4058","birthdate":"2000-02-12","email":"341@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Brz\u0119czyszczykiewicz342","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4524","birthdate":"2000-02-12","email":"342@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Jagoda","lname":"Maciejewski348","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4532","birthdate":"2000-02-12","email":"348@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Tomasz","lname":"Jankowski349","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4480","birthdate":"2000-02-12","email":"349@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Nowak351","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4523","birthdate":"2000-02-12","email":"351@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Bartosz","lname":"Brz\u0119czyszczykiewicz352","studiesName":"Informatyka internetowe","studiesMode":"Internetowe","indexNumber":"s4766","birthdate":"2000-02-12","email":"352@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Yuriy","lname":"Nowak356","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4422","birthdate":"2000-02-12","email":"356@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Brz\u0119czyszczykiewicz357","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4660","birthdate":"2000-02-12","email":"357@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Miko\u0142aj","lname":"Kowalski360","studiesName":"Informatyka jednolite magisterskie","studiesMode":"Dzienne","indexNumber":"s3081","birthdate":"2000-02-12","email":"360@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Anna","lname":"Brz\u0119czyszczykiewicz362","studiesName":"Informatyka internetowe","studiesMode":"Internetowe","indexNumber":"s4385","birthdate":"2000-02-12","email":"362@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Jankowski364","studiesName":"Informatyka dzienne po angielsku","studiesMode":"Dzienne","indexNumber":"s4522","birthdate":"2000-02-12","email":"364@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Karol","lname":"Nowak366","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4518","birthdate":"2000-02-12","email":"366@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Adrian","lname":"Brz\u0119czyszczykiewicz367","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4384","birthdate":"2000-02-12","email":"367@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"\u0141ukasz","lname":"Maciejewski368","studiesName":"Informatyka Spo\u0142eczna","studiesMode":"Dzienne","indexNumber":"s4496","birthdate":"2000-02-12","email":"368@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Adam","lname":"Jankowski369","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4750","birthdate":"2000-02-12","email":"369@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Micha\u0142","lname":"Brz\u0119czyszczykiewicz372","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4483","birthdate":"2000-02-12","email":"372@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Tomasz","lname":"Maciejewski373","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4751","birthdate":"2000-02-12","email":"373@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Rados\u0142aw","lname":"Jankowski374","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4528","birthdate":"2000-02-12","email":"374@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Przemys\u0142aw","lname":"Nowak376","studiesName":"Informatyka zaoczne","studiesMode":"Zaoczne","indexNumber":"s4814","birthdate":"2000-02-12","email":"376@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
-{"fname":"Rafa\u0142","lname":"Nowak381","studiesName":"Informatyka magisterskie 3 sem","studiesMode":"Dzienne","indexNumber":"s4616","birthdate":"2000-02-12","email":"381@pjwstk.edu.pl","mothersName":"Alina","fathersName":"Adam"} juz istnieje w bazie
+Student 459już istnieje w bazie
+Student 459już istnieje w bazie
+Student 4749już istnieje w bazie
+Student 4432już istnieje w bazie
+Student 4799już istnieje w bazie
+Student 4626już istnieje w bazie
+Student 4396już istnieje w bazie
+Student 4902już istnieje w bazie
+Student 4434już istnieje w bazie
+Student 4434już istnieje w bazie
+Student 4842już istnieje w bazie
+Student 4789już istnieje w bazie
+Student 4513już istnieje w bazie
+Student 4649już istnieje w bazie
+Student 4755już istnieje w bazie
+Student 4423już istnieje w bazie
+Student 4629już istnieje w bazie
+Student 4478już istnieje w bazie
+Student 4741już istnieje w bazie
+Student 4800już istnieje w bazie
+Student 4429już istnieje w bazie
+Student 4849już istnieje w bazie
+Student 3374już istnieje w bazie
+Student 4756już istnieje w bazie
+Student 4412już istnieje w bazie
+Student 4836już istnieje w bazie
+Student 4454już istnieje w bazie
+Student 4443już istnieje w bazie
+Student 4579już istnieje w bazie
+Student 4413już istnieje w bazie
+Student 4554już istnieje w bazie
+Student 4711już istnieje w bazie
+Student 4711już istnieje w bazie
+Student 4549już istnieje w bazie
+Student 4549już istnieje w bazie
+Student 4618już istnieje w bazie
+Student 4530już istnieje w bazie
+Student 4607już istnieje w bazie
+Student 4459już istnieje w bazie
+Student 4589już istnieje w bazie
+Student 4589już istnieje w bazie
+Student 4556już istnieje w bazie
+Student 4504już istnieje w bazie
+Student 4505już istnieje w bazie
+Student 4105już istnieje w bazie
+Student 4105już istnieje w bazie
+Student 4498już istnieje w bazie
+Student 4471już istnieje w bazie
+Student 4471już istnieje w bazie
+Student 4724już istnieje w bazie
+Student 4769już istnieje w bazie
+Student 4733już istnieje w bazie
+Student 4584już istnieje w bazie
+Student 4514już istnieje w bazie
+Student 4935już istnieje w bazie
+Student 4456już istnieje w bazie
+Student 4107już istnieje w bazie
+Student 4107już istnieje w bazie
+Student 4107już istnieje w bazie
+Student 4817już istnieje w bazie
+Student 4387już istnieje w bazie
+Student 4509już istnieje w bazie
+Student 4481już istnieje w bazie
+Student 4512już istnieje w bazie
+Student 4782już istnieje w bazie
+Student 4627już istnieje w bazie
+Student 4830już istnieje w bazie
+Student 4447już istnieje w bazie
+Student 4580już istnieje w bazie
+Student 4284już istnieje w bazie
+Student 4440już istnieje w bazie
+Student 4796już istnieje w bazie
+Student 4942już istnieje w bazie
+Student 4614już istnieje w bazie
+Student 4433już istnieje w bazie
+Student 4419już istnieje w bazie
+Student 4419już istnieje w bazie
+Student 4058już istnieje w bazie
+Student 4524już istnieje w bazie
+Student 4532już istnieje w bazie
+Student 4480już istnieje w bazie
+Student 4523już istnieje w bazie
+Student 4766już istnieje w bazie
+Student 4422już istnieje w bazie
+Student 4660już istnieje w bazie
+Student 3081już istnieje w bazie
+Student 3081już istnieje w bazie
+Student 4385już istnieje w bazie
+Student 4522już istnieje w bazie
+Student 4518już istnieje w bazie
+Student 4384już istnieje w bazie
+Student 4384już istnieje w bazie
+Student 4496już istnieje w bazie
+Student 4750już istnieje w bazie
+Student 4750już istnieje w bazie
+Student 4483już istnieje w bazie
+Student 4751już istnieje w bazie
+Student 4751już istnieje w bazie
+Student 4528już istnieje w bazie
+Student 4814już istnieje w bazie
+Student 4616już istnieje w bazie
+Student 459 już istnieje w bazie
+Student 459 już istnieje w bazie
+Student 4749 już istnieje w bazie
+Student 4432 już istnieje w bazie
+Student : wartość System.String studiesMode nie może być nullem
+Student : wartość System.String studiesMode nie może być nullem
+Student 4799 już istnieje w bazie
+Student 4626 już istnieje w bazie
+Student 4396 już istnieje w bazie
+Student 4902 już istnieje w bazie
+Student : wartość System.String lname nie może być nullem
+Student 4434 już istnieje w bazie
+Student 4434 już istnieje w bazie
+Student 4842 już istnieje w bazie
+Student 4789 już istnieje w bazie
+Student 4513 już istnieje w bazie
+Student 4649 już istnieje w bazie
+Student 4755 już istnieje w bazie
+Student 4423 już istnieje w bazie
+Student 4629 już istnieje w bazie
+Student 4478 już istnieje w bazie
+Student 4741 już istnieje w bazie
+Student 4800 już istnieje w bazie
+Student 4429 już istnieje w bazie
+Student 4849 już istnieje w bazie
+Student 3374 już istnieje w bazie
+Student 4756: wartość System.String mothersName nie może być nullem
+Student 4756: wartość System.String fathersName nie może być nullem
+Student 4756 już istnieje w bazie
+Student 4412 już istnieje w bazie
+Student 4836 już istnieje w bazie
+Student 4454 już istnieje w bazie
+Student 4443 już istnieje w bazie
+Student 4579 już istnieje w bazie
+Student 4413 już istnieje w bazie
+Student 4554 już istnieje w bazie
+Student 4711 już istnieje w bazie
+Student 4711 już istnieje w bazie
+Student 4549 już istnieje w bazie
+Student 4549 już istnieje w bazie
+Student 4618 już istnieje w bazie
+Student 4530 już istnieje w bazie
+Student 4607 już istnieje w bazie
+Student 4459 już istnieje w bazie
+Student 4589 już istnieje w bazie
+Student 4589 już istnieje w bazie
+Student 4556 już istnieje w bazie
+Student 4504 już istnieje w bazie
+Student 4505 już istnieje w bazie
+Student 4105 już istnieje w bazie
+Student 4105 już istnieje w bazie
+Student 4498 już istnieje w bazie
+Student 4471 już istnieje w bazie
+Student 4471 już istnieje w bazie
+Student 4724 już istnieje w bazie
+Student 4769 już istnieje w bazie
+Student 4733 już istnieje w bazie
+Student 4584 już istnieje w bazie
+Student 4514 już istnieje w bazie
+Student 4935 już istnieje w bazie
+Student 4456 już istnieje w bazie
+Student 4107 już istnieje w bazie
+Student 4107 już istnieje w bazie
+Student 4107 już istnieje w bazie
+Student 4817 już istnieje w bazie
+Student 4387 już istnieje w bazie
+Student 4509 już istnieje w bazie
+Student 4481 już istnieje w bazie
+Student 4512 już istnieje w bazie
+Student 4782 już istnieje w bazie
+Student 4627 już istnieje w bazie
+Student 4830 już istnieje w bazie
+Student 4447 już istnieje w bazie
+Student 4580 już istnieje w bazie
+Student 4284 już istnieje w bazie
+Student 4440 już istnieje w bazie
+Student 4796 już istnieje w bazie
+Student 4942 już istnieje w bazie
+Student 4614 już istnieje w bazie
+Student 4433 już istnieje w bazie
+Student 4419 już istnieje w bazie
+Student 4419 już istnieje w bazie
+Student 4058 już istnieje w bazie
+Student 4524 już istnieje w bazie
+Student 4532 już istnieje w bazie
+Student 4480 już istnieje w bazie
+Student 4523 już istnieje w bazie
+Student 4766 już istnieje w bazie
+Student 4422 już istnieje w bazie
+Student 4660 już istnieje w bazie
+Student 3081 już istnieje w bazie
+Student 3081 już istnieje w bazie
+Student 4385 już istnieje w bazie
+Student 4522 już istnieje w bazie
+Student 4518 już istnieje w bazie
+Student 4384 już istnieje w bazie
+Student 4384 już istnieje w bazie
+Student 4496 już istnieje w bazie
+Student 4750 już istnieje w bazie
+Student 4750 już istnieje w bazie
+Student 4483 już istnieje w bazie
+Student 4751 już istnieje w bazie
+Student 4751 już istnieje w bazie
+Student 4528 już istnieje w bazie
+Student 4814 już istnieje w bazie
+Student 4616 już istnieje w bazie
