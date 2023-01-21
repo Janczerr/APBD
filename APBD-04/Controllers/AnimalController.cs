@@ -16,7 +16,7 @@ namespace APBD_04.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAnimals()
+        public IActionResult GetAnimals(string orderBy)
         {
             return Ok(_dbService.GetAnimals());
         }

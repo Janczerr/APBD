@@ -47,7 +47,8 @@ namespace APBD_04.Services
             {
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
-                cmd.CommandText = "SELECT * FROM Animal WHERE IdAnimal = @idAnimal ORDER BY NAME ASC";
+                cmd.Parameters.AddWithValue("@idAnimal", idAnimal);
+                cmd.CommandText = "SELECT * FROM Animal WHERE IdAnimal = @idAnimal";
 
 
                 con.Open();
