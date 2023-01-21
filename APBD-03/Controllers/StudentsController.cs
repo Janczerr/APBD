@@ -30,17 +30,51 @@ public class StudentsController : ControllerBase
         return NotFound();
     }
 
-    [HttpPost("{indexNumber}")]
-    public IActionResult addStudent(String indexNumber)
+    [HttpPost]
+    public IActionResult addStudent(Student student)
     {
-        if (getStudent(indexNumber) == NotFound())
+        if (students.Add(student))
         {
-            Console.WriteLine("Nie istnieje");
+            _fileService.SaveStudent(student);
+            return Ok();
         }
-        else
+        return Conflict();
+    }
+
+
+    [HttpPut("{indexNumber}")]
+    public IActionResult updateStudent(String indexNumber, Student student)
+    {
+        foreach (var stud in students)
         {
-            Console.WriteLine("Istnieje w bazie");
+            if (stud.indexNumber == indexNumber)
+            {
+                stud.fname = student.fname;
+                stud.lname = student.lname;
+                stud.studiesName = student.studiesName;
+                stud.studiesMode = student.studiesMode;
+                stud.birthdate = student.birthdate;
+                stud.email = student.email;
+                stud.mothersName = student.mothersName;
+                stud.fathersName = student.fathersName;
+                _fileService.SaveStudents(students);
+                return Ok();
+            }
         }
-        return Ok("Added student" + getStudent(indexNumber).ToString());
+        return NotFound();
+    }
+
+    [HttpDelete("{indexNumber}")]
+    public IActionResult deleteStudent(String indexNumber)
+    {
+        foreach (var student in students)
+        {
+            if (student.indexNumber == indexNumber)
+            {
+                students.Remove(student);
+                _fileService.SaveStudents(students);
+            }
+        }
+        return NotFound();
     }
 }

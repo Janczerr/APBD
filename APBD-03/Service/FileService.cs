@@ -1,13 +1,16 @@
+using System.Text.Json;
 using APBD_03.Models;
 
 namespace APBD_03.Service;
 
 public class FileService
 {
-    public string sourcePath { get; set; }
     public FileInfo sourceInfo { get; set; }
+    public string sourcePath { get; set; }
+    
     public FileService(String sourcePath)
     {
+        this.sourcePath = sourcePath;
         sourceInfo = new FileInfo(sourcePath);
     }
     public HashSet<Student> getStudentFromFile()
@@ -35,4 +38,21 @@ public class FileService
         }
         return students;
     }
+    public void SaveStudents(HashSet<Student> students)
+    {
+        var streamWriter = new StreamWriter(sourcePath, false);
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var jsonString = JsonSerializer.Serialize(students, options);
+        streamWriter.WriteLine(jsonString);
+        streamWriter.Close();
+    }
+    public void SaveStudent(Student student)
+    {
+        var streamWriter = new StreamWriter(sourcePath, true);
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var jsonString = JsonSerializer.Serialize(student, options);
+        streamWriter.WriteLine(jsonString);
+        streamWriter.Close();
+    }
+    
 }
