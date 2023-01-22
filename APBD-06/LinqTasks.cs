@@ -283,7 +283,12 @@ namespace LinqTutorials
                 e.Ename,
                 e.Job,
                 e.HireDate
-            }); //Union
+            }).Union(Emps.Select(e => new
+            {
+                Ename = "Brak wartości",
+                Job = (string)null,
+                HireDate = (DateTime?)null
+            }));
             return result;
         }
 
@@ -300,7 +305,11 @@ namespace LinqTutorials
         /// </summary>
         public static IEnumerable<object> Task11()
         {
-            IEnumerable<object> result = null;
+            IEnumerable<object> result = Depts.Join(Emps, d => d.Deptno, e => e.Deptno, (d, e) => new
+            {
+                Name = d.Dname,
+                numOfEmployees = Emps.Count()
+            }).GroupBy(d => d.Name);
             return result;
         }
 
@@ -337,7 +346,11 @@ namespace LinqTutorials
         /// </summary>
         public static IEnumerable<Dept> Task14()
         {
-            IEnumerable<Dept> result = null;
+            IEnumerable<Dept> result = (IEnumerable<Dept>)(from Dept in Depts
+                                       join Emp in Emps on Dept.Deptno equals Emp.Deptno
+                                       group Emp by Dept.Dname into g
+                                       where g.Count() == 5 || g.Count() == 0
+                                       select new g.Key;
             //result =
             return result;
         }
