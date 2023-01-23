@@ -14,6 +14,9 @@ namespace APBD_05.Models
         [Required(ErrorMessage = "Ilosc jest wymagana!")]
         public int Amount { get; set; }
 
+        [Required(ErrorMessage = "Ilosc jest wymagana!")]
+        public int Price { get; set; }
+
         [Required(ErrorMessage = "Data jest wymagana!")]
         public DateTime CreatedAt { get; set; }
     }
