@@ -27,6 +27,7 @@ namespace APBD_05
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IDbService, DbService>();
             services.AddScoped<IDbService2, DbService2>();
             services.AddControllers();
             services.AddSwaggerGen(c =>

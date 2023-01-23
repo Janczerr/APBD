@@ -335,8 +335,7 @@ namespace LinqTutorials
         /// </summary>
         public static int Task13(int[] arr)
         {
-            int result = 0;
-            //result=
+            int result = arr.Distinct().First();
             return result;
         }
 
@@ -346,11 +345,7 @@ namespace LinqTutorials
         /// </summary>
         public static IEnumerable<Dept> Task14()
         {
-            IEnumerable<Dept> result = (IEnumerable<Dept>)(from Dept in Depts
-                                       join Emp in Emps on Dept.Deptno equals Emp.Deptno
-                                       group Emp by Dept.Dname into g
-                                       where g.Count() == 5 || g.Count() == 0
-                                       select new g.Key;
+            IEnumerable<Dept> result = null;
             //result =
             return result;
         }
