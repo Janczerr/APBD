@@ -16,12 +16,19 @@ namespace APBD_05.Services
         }
         public async Task<int> AddProductToWarehouseAsync(Product product)
         {
-            int countProducts_Warehouses_Orders = 0;
+            int Products = 0;
+            int Warehouses = 0;
+            int IdOrder = 0;
+            int WarehouseWithThisOrder = -1;
+            int rowsAffected = 0;
 
             using var con = new SqlConnection(_configuration.GetConnectionString("ProductionDb"));
             using var com = new SqlCommand("SELECT COUNT(*) FROM PRODUCT WHERE IDPRODUCT = @IdProduct", con);
             com.Parameters.AddWithValue("@IdProduct", product.IdProduct);
             com.Parameters.AddWithValue("@IdWarehouse", product.IdWarehouse);
+            com.Parameters.AddWithValue("@Amount", product.Amount);
+            com.Parameters.AddWithValue("@CreatedAt", product.CreatedAt);
+            com.Parameters.AddWithValue("@Price", product.Price);
 
             await con.OpenAsync();
             DbTransaction tran = await con.BeginTransactionAsync();
@@ -31,40 +38,55 @@ namespace APBD_05.Services
             {
                 if (reader.Read())
                 {
-                    countProducts_Warehouses_Orders = reader.GetInt32(0);
+                    Products = reader.GetInt32(0);
                 }
             }
 
-            if (countProducts_Warehouses_Orders > 0)
+            if (Products > 0)
             {
                 com.CommandText = "SELECT COUNT(*) FROM WAREHOUSE WHERE IDWAREHOUSE = @IdWarehouse";
                 using (var reader = await com.ExecuteReaderAsync())
                 {
                     if (reader.Read())
                     {
-                        countProducts_Warehouses_Orders = reader.GetInt32(0);
+                        Warehouses = reader.GetInt32(0);
                     }
                 }
             }
 
+            if (Warehouses > 0 & product.Amount > 0)
+            {
+                com.CommandText = "SELECT IdOrder FROM \"ORDER\" WHERE IDPRODUCT = @IdProduct AND AMOUNT = @Amount AND CREATEDAT < @CreatedAt AND FULFILLEDAT IS NULL;";
+                using (var reader = await com.ExecuteReaderAsync())
+                {
+                    if (reader.Read())
+                    {
+                        IdOrder = reader.GetInt32(0);
+                        com.Parameters.AddWithValue("@IdOrder", IdOrder);
+                    }
+                }
+            }
 
+            if (IdOrder > 0)
+            {
+                com.CommandText = "SELECT COUNT(*) FROM PRODUCT_WAREHOUSE JOIN \"ORDER\" ON PRODUCT_WAREHOUSE.IDORDER = \"ORDER\".IDORDER WHERE PRODUCT_WAREHOUSE.IDORDER = @IdOrder";
+                using (var reader = await com.ExecuteReaderAsync())
+                {
+                    if (reader.Read())
+                    {
+                        WarehouseWithThisOrder = reader.GetInt32(0);
+                    }
+                }
+            }
 
-
-
-
-
-
-
-            return countProducts;
+            if (WarehouseWithThisOrder == 0)
+            {
+                com.CommandText = "UPDATE \"ORDER\" SET FULFILLEDAT = @CreatedAt WHERE IDORDER = @IdOrder";
+                rowsAffected = await com.ExecuteNonQueryAsync();
+                com.CommandText = "INSERT INTO PRODUCT_WAREHOUSE VALUES  (@IdWarehouse, @IdProduct, @IdOrder, @Amount, @Price, @CreatedAt)";
+                rowsAffected = await com.ExecuteNonQueryAsync();
+            }
+            return rowsAffected;
         }
     }
 }
-
-/*
-    cmd.Parameters.AddWithValue("@IdProduct", product.IdProduct);
-    cmd.Parameters.AddWithValue("@IdWarehouse", product.IdWarehouse);
-    cmd.Parameters.AddWithValue("@Amount", product.Amount);
-    cmd.Parameters.AddWithValue("@CreatedAt", product.CreatedAt);
-
-    cmd.CommandText = "insert into Animal(Name, Description, Category, Area) values(@name, @description, @category, @area)";
-*/
