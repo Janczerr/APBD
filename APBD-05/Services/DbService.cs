@@ -34,58 +34,72 @@ namespace APBD_05.Services
             DbTransaction tran = await con.BeginTransactionAsync();
             com.Transaction = (SqlTransaction)tran;
 
-            using(var reader = await com.ExecuteReaderAsync())
+            try
             {
-                if (reader.Read())
-                {
-                    Products = reader.GetInt32(0);
-                }
-            }
-
-            if (Products > 0)
-            {
-                com.CommandText = "SELECT COUNT(*) FROM WAREHOUSE WHERE IDWAREHOUSE = @IdWarehouse";
                 using (var reader = await com.ExecuteReaderAsync())
                 {
                     if (reader.Read())
                     {
-                        Warehouses = reader.GetInt32(0);
+                        Products = reader.GetInt32(0);
                     }
                 }
-            }
 
-            if (Warehouses > 0 & product.Amount > 0)
-            {
-                com.CommandText = "SELECT IdOrder FROM \"ORDER\" WHERE IDPRODUCT = @IdProduct AND AMOUNT = @Amount AND CREATEDAT < @CreatedAt AND FULFILLEDAT IS NULL;";
-                using (var reader = await com.ExecuteReaderAsync())
+                if (Products > 0)
                 {
-                    if (reader.Read())
+                    com.CommandText = "SELECT COUNT(*) FROM WAREHOUSE WHERE IDWAREHOUSE = @IdWarehouse";
+                    using (var reader = await com.ExecuteReaderAsync())
                     {
-                        IdOrder = reader.GetInt32(0);
-                        com.Parameters.AddWithValue("@IdOrder", IdOrder);
+                        if (reader.Read())
+                        {
+                            Warehouses = reader.GetInt32(0);
+                        }
                     }
                 }
-            }
 
-            if (IdOrder > 0)
-            {
-                com.CommandText = "SELECT COUNT(*) FROM PRODUCT_WAREHOUSE JOIN \"ORDER\" ON PRODUCT_WAREHOUSE.IDORDER = \"ORDER\".IDORDER WHERE PRODUCT_WAREHOUSE.IDORDER = @IdOrder";
-                using (var reader = await com.ExecuteReaderAsync())
+                if (Warehouses > 0 & product.Amount > 0)
                 {
-                    if (reader.Read())
+                    com.CommandText = "SELECT IdOrder FROM \"ORDER\" WHERE IDPRODUCT = @IdProduct AND AMOUNT = @Amount AND CREATEDAT < @CreatedAt AND FULFILLEDAT IS NULL;";
+                    using (var reader = await com.ExecuteReaderAsync())
                     {
-                        WarehouseWithThisOrder = reader.GetInt32(0);
+                        if (reader.Read())
+                        {
+                            IdOrder = reader.GetInt32(0);
+                            com.Parameters.AddWithValue("@IdOrder", IdOrder);
+                        }
                     }
                 }
-            }
 
-            if (WarehouseWithThisOrder == 0)
-            {
-                com.CommandText = "UPDATE \"ORDER\" SET FULFILLEDAT = @CreatedAt WHERE IDORDER = @IdOrder";
-                rowsAffected = await com.ExecuteNonQueryAsync();
-                com.CommandText = "INSERT INTO PRODUCT_WAREHOUSE VALUES  (@IdWarehouse, @IdProduct, @IdOrder, @Amount, @Price, @CreatedAt)";
-                rowsAffected = await com.ExecuteNonQueryAsync();
+                if (IdOrder > 0)
+                {
+                    com.CommandText = "SELECT COUNT(*) FROM PRODUCT_WAREHOUSE JOIN \"ORDER\" ON PRODUCT_WAREHOUSE.IDORDER = \"ORDER\".IDORDER WHERE PRODUCT_WAREHOUSE.IDORDER = @IdOrder";
+                    using (var reader = await com.ExecuteReaderAsync())
+                    {
+                        if (reader.Read())
+                        {
+                            WarehouseWithThisOrder = reader.GetInt32(0);
+                        }
+                    }
+                }
+
+                if (WarehouseWithThisOrder == 0)
+                {
+                    com.CommandText = "UPDATE \"ORDER\" SET FULFILLEDAT = @CreatedAt WHERE IDORDER = @IdOrder";
+                    rowsAffected = await com.ExecuteNonQueryAsync();
+                    com.CommandText = "INSERT INTO PRODUCT_WAREHOUSE VALUES  (@IdWarehouse, @IdProduct, @IdOrder, @Amount, @Price, @CreatedAt)";
+                    rowsAffected = await com.ExecuteNonQueryAsync();
+                    await tran.CommitAsync();
+                }
             }
+            catch (SqlException ex)
+            {
+                await tran.RollbackAsync();
+
+            }
+            catch (Exception ex)
+            {
+                await tran.RollbackAsync();
+            } 
+
             return rowsAffected;
         }
     }
