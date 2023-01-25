@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "APBD-06": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59559;http://localhost:59560"
+    }
+  }
+}
