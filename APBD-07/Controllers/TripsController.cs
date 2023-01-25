@@ -1,5 +1,6 @@
 using APBD_07.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Sockets;
 
 namespace APBD_07.Controllers
 {
@@ -11,8 +12,17 @@ namespace APBD_07.Controllers
         public IActionResult GetTrips()
         {
             var context = new S17263Context();
-            var trips = context.Trips;
+            var trips = context.Trips.OrderBy(e => e.DateFrom);
             return Ok(trips);
         }
+
+        [HttpPost("{IdTrip}/clients")]
+        public async Task<IActionResult> AddClient(Client client)
+        {
+            var context = new S17263Context();
+            var ClientDto = new ClientTripDTO();
+            return Ok();
+        }
+
     }
 }
