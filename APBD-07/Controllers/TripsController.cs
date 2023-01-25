@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace APBD_07.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/trips")]
+    public class TripsController : ControllerBase
     {
         [HttpGet]
         public IActionResult GetTrips()
