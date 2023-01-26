@@ -17,11 +17,14 @@ namespace APBD_07.Controllers
         }
 
         [HttpPost("{IdTrip}/clients")]
-        public async Task<IActionResult> AddClient(Client client)
+        public async Task<IActionResult> AddClient(ClientTripDTO clientTripDTO)
         {
             var context = new S17263Context();
+            var clients = context.Clients.ToList();
+
             var ClientDto = new ClientTripDTO();
             return Ok();
+            
         }
 
     }
